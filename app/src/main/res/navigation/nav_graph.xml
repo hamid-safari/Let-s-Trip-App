@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.request.trip.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_profile"
+            app:destination="@id/profileFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.request.trip.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_changeLanguageFragment"
+            app:destination="@id/changeLanguageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.request.trip.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_to_chat"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.request.trip.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" >
+        <action
+            android:id="@+id/action_notification_to_chat"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatListFragment"
+        android:name="com.request.trip.chat.ChatListFragment"
+        android:label="fragment_chat_list"
+        tools:layout="@layout/fragment_chat_list" >
+        <action
+            android:id="@+id/action_chatList_to_chat"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_loginFragment"
+        app:destination="@id/loginFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.request.trip.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+        <argument
+            android:name="user"
+            app:argType="com.request.trip.profile.User" />
+    </fragment>
+    <fragment
+        android:id="@+id/tripFragment"
+        android:name="com.request.trip.trip.TripFragment"
+        android:label="fragment_trip"
+        tools:layout="@layout/fragment_trip" />
+    <dialog
+        android:id="@+id/confirmDialogFragment"
+        android:name="com.request.trip.delete.ConfirmDialogFragment"
+        android:label="fragment_confirm_dialog"
+        tools:layout="@layout/fragment_confirm_dialog" />
+    <dialog
+        android:id="@+id/tripDialogFragment"
+        android:name="com.request.trip.trip.TripDialogFragment"
+        android:label="fragment_trip_dialog"
+        tools:layout="@layout/fragment_trip_dialog" />
+    <dialog
+        android:id="@+id/changeLanguageFragment"
+        android:name="com.request.trip.language.ChangeLanguageFragment"
+        android:label="fragment_change_language"
+        tools:layout="@layout/fragment_change_language" />
+    <dialog
+        android:id="@+id/logoutDialogFragment"
+        android:name="com.request.trip.profile.LogoutDialogFragment"
+        android:label="fragment_logout_dialog"
+        tools:layout="@layout/fragment_logout_dialog" />
+</navigation>

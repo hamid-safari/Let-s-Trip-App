@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trip</string>
+    <string name="trip">Reise</string>
+    <string name="facebook_app_id">2551685925129395</string>
+    <string name="welcome">Willkommen</string>
+    <string name="login_to_account">Bitte loggen Sie sich in Ihr Konto ein</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="agree_with_terms"><![CDATA[Mit der Anmeldung erklären Sie sich mit unseren Allgemeinen Geschäftsbedingungen einverstanden
+]]></string>
+    <string name="client_id">283749643927-hp27htncfshob47a1m31kb7gd9l6ommt.apps.googleusercontent.com</string>
+    <string name="search">Suche</string>
+    <string name="notification">Benachrichtigung</string>
+    <string name="profile">Profil</string>
+    <string name="about_me">Über mich</string>
+    <string name="interest">Interesse</string>
+    <string name="write_a_message">Nachricht schreiben</string>
+    <string name="edit_name">Name bearbeiten</string>
+    <string name="logout">Abmelden</string>
+    <string name="destination">Reiseziel</string>
+    <string name="your_next_trip">Ihre nächste Reise</string>
+    <string name="date">Datum</string>
+    <string name="add_to_trips">Zu Reisen hinzufügen</string>
+    <string name="description">Beschreibung</string>
+    <string name="search_trip_from_to">Suche nach einer Reise von %s nach %s.</string>
+    <string name="request_for_trip_from_to">Angefragt für Ihre Reise von %s nach %s.</string>
+    <string name="delete">Löschen</string>
+    <string name="cancel">Stornieren</string>
+    <string name="sure_for_delete">
+        <![CDATA[Sind Sie sicher, dass Sie löschen möchten? <b>Diese Aktion kann nicht rückgängig gemacht werden. </b>]]>
+    </string>
+    <string name="request">Anfrage</string>
+    <string name="trip_desc">Beschreibung: %s</string>
+    <string name="trip_from">Von: %s</string>
+    <string name="trip_to">Nach: %s</string>
+    <string name="trip_date">Datum: %s</string>
+    <string name="login_canceled">Anmeldung storniert!</string>
+    <string name="name_changed">Namensänderung erfolgreich</string>
+    <string name="confirm_permission_text">Bitte bestätigen Sie die Speichererlaubnis zum Ändern des Avatars</string>
+    <string name="request_sent">Anfrage gesendet</string>
+    <string name="error">Fehler</string>
+    <string name="trip_added_successfully">Ihre Reise erfolgreich hinzugefügt!</string>
+    <string name="from">Von</string>
+    <string name="chat">Chat</string>
+    <string name="reject">Ablehnen</string>
+    <string name="app_language">App Sprache</string>
+    <string name="language">Sprache</string>
+    <string name="submit">Einreichen</string>
+    <string name="all">Alle</string>
+    <string name="no_notifications_yet">Noch keine Nachrichten</string>
+    <string name="no_new_messages">Keine neue Nachrichten</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:textColorHint">@color/colorDivider</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="SubmitStyle">
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SpinnerStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:background">@drawable/bg_spinner</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+</resources>
