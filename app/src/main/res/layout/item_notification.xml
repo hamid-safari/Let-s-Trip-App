@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAvatarItemNotification"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txtNameItemNotification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/colorSecondaryText"
+            app:layout_constraintBottom_toTopOf="@+id/txtDescItemNotification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgAvatarItemNotification"
+            app:layout_constraintTop_toTopOf="@+id/imgAvatarItemNotification"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="Name Family" />
+
+        <TextView
+            android:id="@+id/txtDescItemNotification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:textColor="@color/colorSecondaryText"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imgAvatarItemNotification"
+            app:layout_constraintEnd_toStartOf="@+id/btnDeleteTrip"
+            app:layout_constraintStart_toEndOf="@+id/imgAvatarItemNotification"
+            app:layout_constraintTop_toBottomOf="@+id/txtNameItemNotification"
+            app:layout_goneMarginEnd="16dp"
+            tools:text="@string/description" />
+
+        <TextView
+            android:id="@+id/btnDeleteTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:padding="8dp"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btnChatItemRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/colorAccent"
+            android:minHeight="0dp"
+            android:stateListAnimator="@null"
+            android:text="@string/chat"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDescItemNotification" />
+
+        <Button
+            android:id="@+id/btnRejectItemRequest"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:minHeight="0dp"
+            android:stateListAnimator="@null"
+            android:text="@string/reject"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnChatItemRequest"
+            app:layout_constraintStart_toEndOf="@+id/btnChatItemRequest" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

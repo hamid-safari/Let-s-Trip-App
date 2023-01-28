@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Trip</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_to_account">Please login to your account</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="agree_with_terms"><![CDATA[By signing up, you agree with our Terms & Conditions]]></string>
+    <string name="client_id">283749643927-hp27htncfshob47a1m31kb7gd9l6ommt.apps.googleusercontent.com</string>
+    <string name="search">Search</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="about_me">About me</string>
+    <string name="interest">Interest</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="trip">Trip</string>
+
+    <string name="facebook_app_id">2551685925129395</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="logout">Logout</string>
+    <string name="destination">Destination</string>
+    <string name="your_next_trip">Your next trip</string>
+    <string name="date">Date</string>
+    <string name="add_to_trips">Add To Trips</string>
+    <string name="description">Description</string>
+    <string name="search_trip_from_to">Searching for a trip from %s to %s.</string>
+    <string name="request_for_trip_from_to">Requested for your trip from %s to %s.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure_for_delete">
+        <![CDATA[Are you sure you want to delete? <b>This action cannot be undone. </b>]]>
+    </string>
+    <string name="request">Request</string>
+    <string name="trip_desc">Description: %s</string>
+    <string name="trip_from">From: %s</string>
+    <string name="trip_to">To: %s</string>
+    <string name="trip_date">Date: %s</string>
+    <string name="login_canceled">Login canceled!</string>
+    <string name="name_changed">Name change successfully</string>
+    <string name="confirm_permission_text">Please confirm storage permission to change avatar</string>
+    <string name="request_sent">Request sent</string>
+    <string name="error">Error</string>
+    <string name="trip_added_successfully">Your trip added successfully!</string>
+    <string name="from">From</string>
+    <string name="chat">Chat</string>
+    <string name="reject">Reject</string>
+    <string name="language">Language</string>
+    <string name="submit">Submit</string>
+    <string name="app_language">App Language</string>
+    <string name="all">All</string>
+    <string name="no_notifications_yet">No notifications yet</string>
+    <string name="no_new_messages">No new messages</string>
+</resources>
