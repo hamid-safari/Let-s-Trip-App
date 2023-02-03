@@ -1,6 +1,6 @@
 <h1>Let's trip App</h1>
 
- ### [YouTube Demonstration](https://www.youtube.com/)
+ ### [YouTube Demonstration](https://youtu.be/ca_TcSyvVbU)
 
 <h2>Description</h2>
 "Let's trip" app gives the user this opportunity to find a travel partner.
@@ -15,6 +15,7 @@ The user can search by date and place, find the desired trip and send a request.
 - <b>Firebase and Room as Database</b>
 - <b>MVVM architecture </b>
 
+<!--
 
 <h2>Program walk-through:</h2>
 
@@ -23,7 +24,7 @@ Screenshots from the APP <br/>
 <br />
 
 </p>
-
+--!>
 <!--
  ```diff
 - text in red
