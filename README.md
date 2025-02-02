@@ -1,6 +1,6 @@
 <h1>Let's trip App</h1>
 
- ### [YouTube Demonstration](https://youtu.be/ca_TcSyvVbU)
+ 
 
 <h2>Description</h2>
 "Let's trip" app gives the user this opportunity to find a travel partner.
